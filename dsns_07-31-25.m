@@ -211,13 +211,10 @@ avg2DPower = extract_2D_power(freqbase_across, freq_across, "all", [25 50]);
 toc
 
 % Global (all channels)
-% δ-band (1–4 Hz) - No sig.
-% θ-band (4–8 Hz) - Positive sig. higher than Food (p = 0.006 bonf.), main
-% effect of category (F[2,82]=4.779, p=0.011)
-
-% α-band (8–13 Hz) - Presentation 2 sig. higher than 1 (p = 0.009)
-% β-band (13–25 Hz) - Presentation 2 sig. higher than 1 (p = 0.011)
-% γ-band (25–50 Hz) - No sig.
+% θ-band (4–8 Hz) 
+% α-band (8–13 Hz) 
+% β-band (13–25 Hz)
+% γ-band (25–50 Hz)
 
 %% Plot across subject frequency spectrum across channels
 function plot_freq_across_groups(freq_across, freq_baseline, condGroups, channels, tle)
